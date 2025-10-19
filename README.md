@@ -1,13 +1,17 @@
 # Greeting Card Database Automation
 
-> **⚠️ Status: Work in Progress**  
+> **Status: Work in Progress**  
 > This project is currently in active development and testing. The code may contain bugs or incomplete features. Use at your own risk and feel free to report issues or contribute improvements!
 
-When I began updating SEO for my website and integrating new Pinterest content, I realized how difficult it was to locate specific greeting card designs. Over the years I created thousands of cards, but they were scattered across different computers and folders with inconsistent file names. Without a clear naming convention or searchable system, finding the right files for republishing or linking was slow and disorganized.
+When I started updating SEO for my website and integrating new Pinterest content, it was difficult to locate specific greeting card designs.  
+I had created thousands of designs, but they were scattered across different computers and folders. The biggest problem was that they had inconsistent file names.  
+
+Without a clear naming convention or searchable system, finding the right files for republishing or linking was disorganized and time-consuming.
 
 This project organizes those designs into a single searchable database. It uses a Google Sheet for tagging and organization, and a Python script that automatically extracts text from each card image using OCR (Tesseract) and updates a CSV file.
 
 The result is a simple, maintainable system for locating cards by the text printed on them, as well as by color, occasion, or design type.
+
 
 ## Goals
 
